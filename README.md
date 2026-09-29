@@ -2,8 +2,8 @@
 
 Discover your favorite films. A React web app that searches movies, shows trending titles and full movie details, and saves favorites, using live data from the TMDb API.
 
-**Live demo:** _add your Vercel / Netlify link here_
-**Repository:** _add your GitLab link here_
+**Live demo:** _https://movie-explorer-lemon-psi.vercel.app_
+**Repository:** _https://github.com/AKdieoo/movie-explorer_
 **Demo login:** username `demo`, password `movie123`
 
 ## Screenshots
@@ -152,3 +152,4 @@ Deployed on Vercel (or Netlify) from the GitLab repository. Step by step guide: 
 - Login is a front-end demo only (there is no backend), so it is not real security.
 - Genre and rating cannot be sent to TMDb together with a title search, so they are applied to the loaded results in the browser.
 - This product uses the TMDb API but is not endorsed or certified by TMDb.
+
