@@ -1,0 +1,16 @@
+# Netlify settings (only used if you deploy to Netlify instead of Vercel)
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  # Create React App treats ESLint warnings as build errors when CI=true.
+  # "false" keeps a harmless warning from blocking the deploy.
+  CI = "false"
+
+# Single-page app: every URL must serve index.html so /favorites, /movie/123 etc. work on refresh
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
